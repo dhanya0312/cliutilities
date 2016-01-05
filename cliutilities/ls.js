@@ -3,12 +3,14 @@
 "use strict";
 
 let fs = require('fs');
+let path = require('path');
 
 function ls(arg){
 	console.log(arg)
 	fs.readdir(arg, function (err, filenames) {
   		if (err) throw err;
-  		for(let filename of filenames){
+  		for(let f of filenames){
+  			let filename=path.join(arg+'/', f)
   			fs.stat(filename, function (err, stats) {
   				if (err) throw err;
   				if(stats.isDirectory()){
