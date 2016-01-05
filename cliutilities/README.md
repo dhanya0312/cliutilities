@@ -18,4 +18,4 @@ Completed:
 
 Walkthrough Gif:
 
-![Video Walkthrough](http://i.imgur.com/PSrDpOY.gif)
+![Video Walkthrough](https://github.com/dhanya0312/cliutilities/blob/master/cliutilities/CLIUtilities.gif)
